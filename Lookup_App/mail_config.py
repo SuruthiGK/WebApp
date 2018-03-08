@@ -1,4 +1,4 @@
-Sender = "testfreshdesk@appviewx.com"
-Password = "payoda@1234"
-Outgoing_mail_id = "testfreshdesk@appviewx.com"
-SMTP_Server = 'smtp.gmail.com'
+SENDER = "testfreshdesk@appviewx.com"
+PASSWORD = "payoda@1234"
+OUTGOING_MAIL_ID = "testfreshdesk@appviewx.com"
+SMTP_SERVER = 'smtp.gmail.com'

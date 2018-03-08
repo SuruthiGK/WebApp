@@ -1,0 +1,17 @@
+<html>
+   <body>
+      <form action = "{{ url_for('search_dns')}}" method = "post">
+         <p>Give us the DNS/Ip, we will do the Lookup for you.</p>
+         <div class="row">
+          <input class="u-full-width" name="nm" type="text" placeholder="Enter IP/Url" id="url">
+		 </div>
+		 <div>
+          <input class="u-full-width" name="email" type="text" placeholder="name@gmail.com" id="email">
+        </div>
+        <input class="button-primary" type="submit" value="Submit">
+        {% if error %}
+        <font size=4><b><p class=error><strong>Error:</strong> {{ error }}</b></font>
+        {% endif %}
+      </form>     
+   </body>
+</html>
