@@ -73,7 +73,7 @@ def search_dns():
 			send_mail(str(json2html.convert(json = dns_lookup)),email_input)
 		return str(json2html.convert(json = dns_lookup))
 	except Exception,e:
-		abort(404,'ERROR:{}'.format(e))
+		abort(404,'Error: {}'.format(e))
 
 if __name__ == '__main__':
 	app.secret_key = os.urandom(12)
