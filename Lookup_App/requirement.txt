@@ -1,0 +1,6 @@
+flask
+python-whois
+ipwhois
+json2html
+smtplib
+email
